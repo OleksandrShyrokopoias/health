@@ -1,0 +1,39 @@
+@import 'base/reset.scss';
+@import 'base/fonts.scss';
+@import 'modules/variables.scss';
+
+body {
+    font: 400 18px/24px 'Neue Montreal', sans-serif;
+    color: #817F7F;
+    background-color: #0E0E11;
+}
+ul {
+    list-style-type: none;
+}
+p {
+    margin: 0;
+}
+a, button:hover {
+    transition: .2s;
+}
+button {
+    border: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1312px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+@import 'base/media.scss';
